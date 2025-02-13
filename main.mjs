@@ -137,7 +137,7 @@ try {
             orderFood = prompt("What else do you want?...");
             makeAnOrder(orderFood);
         } else {
-            let toRemove = prompt("Before finishing your order, is there a food you wanto ro remove from the order? y/n");
+            let toRemove = prompt("Before finishing your order, is there a food you want to remove from the order? y/n");
             if(toRemove === 'y' || toRemove === "Y") {
                 let removeOrder = prompt("Choose food to remove");
                 remove(removeOrder);
